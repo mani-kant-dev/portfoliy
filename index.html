@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portpoliy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div id="contanier">
+            <nav>
+                <img src="logo1.webp" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTPOLIY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+             </nav>
+             <div class="header-text">
+                <p>Web Designer</p>
+                <h1>HI, I'm <span>Manikanta</span> From India</h1>
+             </div>
+        </div>
+    </div>
+    <!----------------------------------about me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquid ullam totam at quae neque, voluptatum itaque 
+                        libero nostrum maxime enim minus ut doloremque ipsam. 
+                        A molestias similique saepe dolor facilis.</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                            <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-end Technologies</span><br>HTML5, CSS3, JavaScript, React JS, BootStrap 4, JQuery </li>
+                                <li><span>Back-end Technologies</span><br>Python, Data Structures,OOP.</li>
+                                <li><span>Database and Other CS tools.</span><br>MySQL, XML.</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>Completed Full Stack Developer Course at Unique Technologies </li>
+                                <li><span>2024</span><br>Completed Diploma at SGP clg</li>
+                                <li><span>2021</span><br>Completed School at satya High School</li>
+                               
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------portfolio------------->
+
+    <div id="portfolio">
+        <div class="contanier">
+            <h1 class="sub-title">MY WORK </h1>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="weblogin.png">
+                <div class="layer">
+                    <h3>Login Form</h3>
+                    <p>The login Form content you to login or rejestration </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="webspot.png">
+                <div class="layer">
+                    <h3>Music APP</h3>
+                    <p>This app content multiple song  </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="brand.png">
+                <div class="layer">
+                    <h3>Brand Page</h3>
+                    <p>This page content brand shooes which you can buy  </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-- /-------------------------contact me-------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p>contact@gmail.com</p>
+                    <p>123456789</p>
+                    <a href="mani.docx" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copy right @ Mani. Made with by easy code</p>
+        </div>
+    </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>
